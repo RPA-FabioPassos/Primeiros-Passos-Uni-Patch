@@ -1,0 +1,6 @@
+{
+  "Name": "Calculadora _Variavel_global",
+  "ProjectType": "Process",
+  "Description": "Programa que calcula valores, com variaveis globais",
+  "MainFile": "Main.xaml"
+}
