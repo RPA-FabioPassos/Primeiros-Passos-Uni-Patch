@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kL6Jy_rnX0GBNOXgf2Hurw" Reference="KLcIlyLsq0KazzUZxkxWSg/xMKZKqSy5EevzuJoQwoD6Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" CVScreenId="85e9505f-a26e-42f8-9084-348858890206" CvElementArea="617, 545, 388, 48" CvType="InputBox" DesignTimeRectangle="623, 536, 378, 57" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='BzTas' tag='INPUT' type='' class='ng-untouched ng-pristine ng-invalid' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="02cfa770-d2b8-4d37-b2a1-26a8a76f48a6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAX4AAAA9CAYAAACqYQKKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD5SURBVHhe7dZBDcAwEAPB8gdxVC+vBER3RjKFlb8FIEX4AWKEHyBG+AFihB8gRvgBYoQfIEb4AWKEHyBG+AFihB8gRvgBYoQfIEb4AWKEHyBG+AFihB8gRvgBYoQfIEb4AWKEHyBG+AFihB8gRvgBYoQfIEb4AWKEHyBG+AFihB8gRvgBYoQfIEb4AWKEHyBG+AFihB8gRvgBYoQfIEb4AWKEHyBG+AFihB8gRvgBYoQfIEb4AWKEHyBG+AFihB8gRvgBYoQfIEb4AWKEHyBG+AFihB8gRvgBYoQfIEb4AWKEHyBG+AFiXvhnxszMfrzL4weIEX6AlN0DvBwTYj8cO4oAAAAASUVORK5CYII=" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="85e9505f-a26e-42f8-9084-348858890206" CvTextArea="621, 515, 81, 13" CvTextArgument="First Name" CvType="Text" DesignTimeRectangle="623, 512, 80, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='First Name' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='First Name' /&gt;" Guid="38a80554-edbf-4cc7-bb50-e30b68775318" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="85e9505f-a26e-42f8-9084-348858890206" CvElementArea="1024, 543, 389, 51" CvType="InputBox" DesignTimeRectangle="1029, 536, 378, 57" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='uItOE' tag='INPUT' /&gt;" Guid="bf44776f-707a-443a-a80d-6c8cddfb7bae" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4734664e2b4d9ae85edab63bb7c4a00a.png" xmlns="">0enE3RyGT0UCSCIeImakhFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
