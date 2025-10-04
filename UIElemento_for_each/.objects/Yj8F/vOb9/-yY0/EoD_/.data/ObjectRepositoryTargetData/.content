@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JQMBzLVILkKLs3j11xDOyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="11ad9c51-f2ec-44ce-8956-3b77fa9c90ca" CvElementArea="548, 679, 104, 42" CvTextArea="575, 692, 48, 16" CvTextArgument="Accept" CvType="Button" DesignTimeRectangle="550, 682, 100, 39" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='Accept' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Accept' /&gt;" Guid="468dec24-ad0b-48bc-92e1-7be5fb56111c" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="11ad9c51-f2ec-44ce-8956-3b77fa9c90ca" CvElementArea="548, 679, 104, 42" CvTextArea="575, 692, 48, 16" CvTextArgument="Accept" CvType="Button" DesignTimeRectangle="577, 693, 46, 17" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Accept' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Accept' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Accept' /&gt;" Guid="7be12a7c-cc28-4243-b71c-67963bebb75a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4dc016a00b806e1d922708de05b8f986.png" xmlns="">04XCXVZ4He0-BwREIRt7wUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

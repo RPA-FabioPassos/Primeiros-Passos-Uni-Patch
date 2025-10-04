@@ -1,0 +1,266 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="818,2262.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Name="Contagem_Linha">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" Value="1" />
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="569.6,2239.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="DoubleUI" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="536,2156" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="5358b009-51a6-41a6-a61c-0c7b833a5b63" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="502.4,1865.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="sd:DataTable" Name="database_total" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[database_total]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="468.8,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="Planilha dados.xlsx" />
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[database_total]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="468.8,1684" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                <ui:ForEachRow.Body>
+                  <ActivityAction x:TypeArguments="sd:DataRow">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.2,1511.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="Horario" />
+                        <Variable x:TypeArguments="x:String" Name="numero_transacao" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Clicando no sado " EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="5358b009-51a6-41a6-a61c-0c7b833a5b63" Text="[CurrentRow(&quot;Saldo&quot;).ToString]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable CVScreenId="9a0cf21a-5ff1-4a7f-a620-52df7cf3de49" ContentHash="JDPyejJtiUuVr-OrXxYl0Q" CvElementArea="412, 209, 154, 31" CvType="InputBox" DesignTimeRectangle="415, 211, 150, 28" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl automationid='cashintb' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="c91d90d1-bd66-4f6f-8642-101e4e7295cf" InformativeScreenshot="7d99f2d90c753e06e6ae8836b2fc2b8b.png" IsResponsive="True" Reference="pQGgmKVnjEKOLvk36Jgp-A/OagN9I-67Uuf3F7xGBDMhg" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="9a0cf21a-5ff1-4a7f-a620-52df7cf3de49" CvTextArea="328, 213, 61, 16" CvTextArgument="Cash In" CvType="Text" DesignTimeRectangle="329, 213, 60, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Cash In' role='text' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Cash In' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Cash In' /&gt;" Guid="73e9722b-e6cd-4e9c-ad9f-00f0dae729f0" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'On Us Check'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="5358b009-51a6-41a6-a61c-0c7b833a5b63" Text="[CurrentRow(&quot;Checagem&quot;).ToString]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable CVScreenId="c24fa609-8b8d-4e0f-9f9f-194e499cd5b5" ContentHash="0Qe_yvFfikObQLAHBbMLwg" CvElementArea="413, 257, 154, 32" CvType="InputBox" DesignTimeRectangle="415, 259, 150, 29" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl automationid='onustb' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="034d3ff1-cf43-410a-9b6b-bb06e12e22ac" InformativeScreenshot="d8dfafb5b8d3d5072c5598210c2165f2.png" IsResponsive="True" Reference="pQGgmKVnjEKOLvk36Jgp-A/2RFd8dgmokuerh2p9Q-VkA" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="c24fa609-8b8d-4e0f-9f9f-194e499cd5b5" CvTextArea="283, 262, 107, 16" CvTextArgument="On Us Check" CvType="Text" DesignTimeRectangle="285, 262, 104, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='On Us Check' role='text' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='On Us Check' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='On Us Check' /&gt;" Guid="cc04a19b-42f3-476c-9d09-537970301b1e" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NGetText DisplayName="Get Text 'Transaction #'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,138.4" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="5358b009-51a6-41a6-a61c-0c7b833a5b63" TextString="[numero_transacao]" Version="V5">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable CVScreenId="bdb9e1f6-8865-4a90-baed-83104ad61f97" ContentHash="aqUMEI6fskS0w9oV6jQhJg" CvType="AnyWordGroup" DesignTimeRectangle="650, 157, 59, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl automationid='transnrlabel' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="a2bd80d7-ebb2-428d-b62c-80c024be18bb" InformativeScreenshot="9dd98235c88d5073d6bf568d58558210.png" Reference="pQGgmKVnjEKOLvk36Jgp-A/sjLb4fWimESnptZ3BqJ0zw" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="bdb9e1f6-8865-4a90-baed-83104ad61f97" CvTextArea="531, 157, 112, 16" CvTextArgument="Transaction #:" CvType="Text" DesignTimeRectangle="534, 157, 110, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Transaction #:' role='text' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Transaction #:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Transaction #:' /&gt;" Guid="19edea7b-5cec-4ad1-bb00-72334b1bd705" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Int32">[Contagem_Linha]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:Int32">[Contagem_Linha+1]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <ui:WriteCell WorkbookPathResource="{x:Null}" Cell="[&quot;C&quot;+Contagem_Linha.ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="433.6,148" sap2010:WorkflowViewState.IdRef="WriteCell_1" SheetName="Sheet1" Text="[numero_transacao]" WorkbookPath="Planilha dados.xlsx" />
+                      <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_2">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[Horario]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">[DateTime.Now.ToString]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <ui:WriteCell WorkbookPathResource="{x:Null}" Cell="[&quot;D&quot;+Contagem_Linha.ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="433.6,148" sap2010:WorkflowViewState.IdRef="WriteCell_2" SheetName="Sheet1" Text="[Horario]" WorkbookPath="Planilha dados.xlsx" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Accept'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,216.8" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5358b009-51a6-41a6-a61c-0c7b833a5b63" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable CVScreenId="11ad9c51-f2ec-44ce-8956-3b77fa9c90ca" ContentHash="JQMBzLVILkKLs3j11xDOyg" CvElementArea="548, 679, 104, 42" CvTextArea="575, 692, 48, 16" CvTextArgument="Accept" CvType="Button" DesignTimeRectangle="550, 682, 100, 39" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='Accept' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Accept' /&gt;" Guid="468dec24-ad0b-48bc-92e1-7be5fb56111c" InformativeScreenshot="4dc016a00b806e1d922708de05b8f986.png" Reference="pQGgmKVnjEKOLvk36Jgp-A/EoD_sjDd2E6SGx6PwaELjg" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="11ad9c51-f2ec-44ce-8956-3b77fa9c90ca" CvElementArea="548, 679, 104, 42" CvTextArea="575, 692, 48, 16" CvTextArgument="Accept" CvType="Button" DesignTimeRectangle="577, 693, 46, 17" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Accept' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Accept' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Accept' /&gt;" Guid="7be12a7c-cc28-4243-b71c-67963bebb75a" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEachRow.Body>
+              </ui:ForEachRow>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="96, 96, 781, 785" ContentHash="dC711JGTuU-O4fNOb62Jkg" FilePath="C:\Users\Fabio\OneDrive\Documentos\UiPath\UIElemento_for_each\DoubleUI\doubleui.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFtSURBVFhH7dXNSsNAFIbhKCKKiCKit+q/FetCcC0EXAribYh4CyZxnwvIf7I5ckrGpEMmMzkH0yhz4MVSann4sqhjz569/3J39w8wpWpWc10f+q3e3j8W9b2uWc2Jfx6j55fXRX2va1Zz+GYYhpNICayqavTKslyqKAragvhlzsknORmGdeG0wEf36eevqA08nn/B0TyAw9sADm4C2J8FsDfzYffah50rH7YvPdi68GDz3IONMw/WTxug67ra2AsOxa21gCLVckYLqhJACm7Ignme8x4xBSeAuuUQpwWqEkAKDkNQ12JybCAFh5ksh2VZxnvEFBxmuqAWqEoAKTjMZDkRC0jBYQjqWkyO/YgpOMxkOSxNU96CFBxmuiAbSMFhJsuJWEAKDkNU12JybCAFh5kshyVJwgNSUy0o41YGNFluMsA+XBzHqwXqcCwg1v7RH/LzZYpjAcfAkYFj4aIoUgOnVM2yZ8/eHz/H+QYcnCQCIP+zCQAAAABJRU5ErkJggg==" InformativeScreenshot="a8000a29f15428f1229b2d67ccab365d.png" Reference="pQGgmKVnjEKOLvk36Jgp-A/-yY0uGBAH0qIsdwUaLjKhA" Selector="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

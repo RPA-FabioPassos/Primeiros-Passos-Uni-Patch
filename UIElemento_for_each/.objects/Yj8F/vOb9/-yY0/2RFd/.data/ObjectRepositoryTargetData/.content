@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0Qe_yvFfikObQLAHBbMLwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c24fa609-8b8d-4e0f-9f9f-194e499cd5b5" CvElementArea="413, 257, 154, 32" CvType="InputBox" DesignTimeRectangle="415, 259, 150, 29" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl automationid='onustb' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="034d3ff1-cf43-410a-9b6b-bb06e12e22ac" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c24fa609-8b8d-4e0f-9f9f-194e499cd5b5" CvTextArea="283, 262, 107, 16" CvTextArgument="On Us Check" CvType="Text" DesignTimeRectangle="285, 262, 104, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='On Us Check' role='text' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='On Us Check' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='On Us Check' /&gt;" Guid="cc04a19b-42f3-476c-9d09-537970301b1e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d8dfafb5b8d3d5072c5598210c2165f2.png" xmlns="">0gOUiew7rmUq6qH0EiMt4AA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

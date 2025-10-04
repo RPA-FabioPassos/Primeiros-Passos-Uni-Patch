@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="dC711JGTuU-O4fNOb62Jkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="96, 96, 781, 785" FilePath="C:\Users\Fabio\OneDrive\Documentos\UiPath\UIElemento_for_each\DoubleUI\doubleui.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFtSURBVFhH7dXNSsNAFIbhKCKKiCKit+q/FetCcC0EXAribYh4CyZxnwvIf7I5ckrGpEMmMzkH0yhz4MVSann4sqhjz569/3J39w8wpWpWc10f+q3e3j8W9b2uWc2Jfx6j55fXRX2va1Zz+GYYhpNICayqavTKslyqKAragvhlzsknORmGdeG0wEf36eevqA08nn/B0TyAw9sADm4C2J8FsDfzYffah50rH7YvPdi68GDz3IONMw/WTxug67ra2AsOxa21gCLVckYLqhJACm7Ignme8x4xBSeAuuUQpwWqEkAKDkNQ12JybCAFh5ksh2VZxnvEFBxmuqAWqEoAKTjMZDkRC0jBYQjqWkyO/YgpOMxkOSxNU96CFBxmuiAbSMFhJsuJWEAKDkNU12JybCAFh5kshyVJwgNSUy0o41YGNFluMsA+XBzHqwXqcCwg1v7RH/LzZYpjAcfAkYFj4aIoUgOnVM2yZ8/eHz/H+QYcnCQCIP+zCQAAAABJRU5ErkJggg==" Selector="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="a8000a29f15428f1229b2d67ccab365d.png" xmlns="">0pKeFN5EaHU69DRAXAuJYaw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

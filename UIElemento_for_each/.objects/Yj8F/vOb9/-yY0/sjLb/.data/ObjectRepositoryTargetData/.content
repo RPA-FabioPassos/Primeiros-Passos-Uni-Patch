@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aqUMEI6fskS0w9oV6jQhJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="bdb9e1f6-8865-4a90-baed-83104ad61f97" CvType="AnyWordGroup" DesignTimeRectangle="650, 157, 59, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl automationid='transnrlabel' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="a2bd80d7-ebb2-428d-b62c-80c024be18bb" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bdb9e1f6-8865-4a90-baed-83104ad61f97" CvTextArea="531, 157, 112, 16" CvTextArgument="Transaction #:" CvType="Text" DesignTimeRectangle="534, 157, 110, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Transaction #:' role='text' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Transaction #:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Transaction #:' /&gt;" Guid="19edea7b-5cec-4ad1-bb00-72334b1bd705" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9dd98235c88d5073d6bf568d58558210.png" xmlns="">0hcx2u97HWkO5E-Qv7AkEMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

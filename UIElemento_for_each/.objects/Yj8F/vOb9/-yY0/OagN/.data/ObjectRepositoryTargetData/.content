@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JDPyejJtiUuVr-OrXxYl0Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="9a0cf21a-5ff1-4a7f-a620-52df7cf3de49" CvElementArea="412, 209, 154, 31" CvType="InputBox" DesignTimeRectangle="415, 211, 150, 28" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl automationid='cashintb' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="c91d90d1-bd66-4f6f-8642-101e4e7295cf" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9a0cf21a-5ff1-4a7f-a620-52df7cf3de49" CvTextArea="328, 213, 61, 16" CvTextArgument="Cash In" CvType="Text" DesignTimeRectangle="329, 213, 60, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Cash In' role='text' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Cash In' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Cash In' /&gt;" Guid="73e9722b-e6cd-4e9c-ad9f-00f0dae729f0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7d99f2d90c753e06e6ae8836b2fc2b8b.png" xmlns="">0ZK1gcgLKmEO9YhsmTannuA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
