@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mrqhtjtThUemakZa1Hfi6w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="leagueofgraphs.com/summoner/br/Boombermantrack-br1" CVScreenId="1d9fa69f-894c-461a-bdf6-c12debd8825f" CvType="AnyWordGroup" DesignTimeRectangle="772, 459, 234, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='leagueTier' parentid='mainContent' tag='DIV' /&gt;" Guid="72a15692-23d2-4e15-8e36-c9bb0d3adcf5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boombermantrack#br1 (BR) - LeagueOfGraphs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b29663fd9be4b79077c6eae832ef9a1a.png" xmlns="">0nCT7tkqxJkmcmi-5BVtDVQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

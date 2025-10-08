@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome LoL Champions & Summoners Stats & Rankings - LeagueOfGraphs",
+  "Type": "App",
+  "Id": "9SdG3rV9CUeAoEAV34vyeg",
+  "Reference": "s-nojeNZnkSZsa1GzPT1lQ/9SdG3rV9CUeAoEAV34vyeg",
+  "Created": "2025-10-07T22:52:57.0491107Z",
+  "Updated": "2025-10-07T22:52:57.0491107Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HAVkuADQC0iZ2O8hcku9fA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="leagueofgraphs.com" CVScreenId="0e6f4057-b7c3-4328-89df-73ba8325f29a" CvElementArea="1344, 236, 253, 39" CvType="InputBox" DesignTimeRectangle="1571, 248, 15, 16" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='topnavbarform' tag='I' /&gt;" Guid="1d118386-5dc0-4dea-9314-bdc9de1aeeeb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LoL Champions &amp;amp; Summoners Stats &amp;amp; Rankings - LeagueOfGraphs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f3d46d52e99da1a4d5422b65999587b4.png" xmlns="">0ayaUrd5mtUas3mMoY0A8Kg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

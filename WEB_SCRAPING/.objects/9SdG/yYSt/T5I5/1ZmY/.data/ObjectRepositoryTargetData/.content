@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YisA8_rQWUq7XSijaqpRrg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="leagueofgraphs.com" CVScreenId="c3847307-50e3-46ec-bab9-1531676324cf" CvElementArea="1344, 235, 253, 39" CvType="InputBox" DesignTimeRectangle="1346, 239, 250, 35" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='topnavbarform' tag='INPUT' type='text' /&gt;" Guid="49258f63-670f-4148-a942-90e577f87fdb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LoL Champions &amp;amp; Summoners Stats &amp;amp; Rankings - LeagueOfGraphs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="57018cf91e27ecb7ec416a2a22c9b92c.png" xmlns="">0ZaubegUZfUKhlSDaKo1Q6Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

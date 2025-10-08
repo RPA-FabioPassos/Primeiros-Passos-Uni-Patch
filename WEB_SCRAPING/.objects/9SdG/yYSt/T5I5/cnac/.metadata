@@ -1,0 +1,14 @@
+﻿{
+  "Name": "56.7%",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "cnac_MgdpkmAMvHcIVLDDg",
+  "Reference": "s-nojeNZnkSZsa1GzPT1lQ/cnac_MgdpkmAMvHcIVLDDg",
+  "ParentRef": "s-nojeNZnkSZsa1GzPT1lQ/T5I598yAzUSbh0LCXQo6Vw",
+  "Created": "2025-10-07T23:11:58.07414Z",
+  "Updated": "2025-10-07T23:11:58.07414Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
