@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CEJjuPHA8kK8NTz1W20SKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="amazon.com.br" CVScreenId="0412fb08-6437-47ab-97be-7652761350c3" CvElementArea="1393, 234, 60, 53" CvType="Button" DesignTimeRectangle="1396, 238, 56, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='nav-search-submit-button' tag='INPUT' /&gt;" Guid="149cd7ed-866b-4c28-87a0-a925c7cbf0ab" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.com.br | Tudo pra você, de A a Z.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c4040a2ac0e444b696208108d4645f47.png" xmlns="">0ayrRj9KMGUqmj5eDx2OfPQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

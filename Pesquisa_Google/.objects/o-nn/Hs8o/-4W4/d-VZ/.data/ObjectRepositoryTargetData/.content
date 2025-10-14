@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="towYyF84hEiZb08sLRE8Tw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="amazon.com.br/ref=nav_logo" CVScreenId="2ac9fe41-32a7-4567-b41f-41ec1d019cfa" CvElementArea="640, 236, 762, 52" CvType="InputBox" DesignTimeRectangle="647, 239, 749, 47" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='twotabsearchtextbox' tag='INPUT' type='text' class='nav-input nav-progressive-attribute' placeholder='Pesquisar Amazon.com.br' aaname='Pesquisar Amazon.com.br' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f8379d1a-59f0-435a-996a-e8b162d78961" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.com.br | Tudo pra você, de A a Z.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2ac9fe41-32a7-4567-b41f-41ec1d019cfa" CvElementArea="563, 237, 84, 52" CvType="InputBox" DesignTimeRectangle="579, 242, 41, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='nav-search-label-id' tag='SPAN' type='' class='nav-search-label nav-progressive-content' aaname='Todos' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Todos' /&gt;" Guid="6da1f87e-3248-4b45-8e25-8146da0b2be7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9cb23ddcfb8b2e73041763f84f2a2d06.png" xmlns="">0-wHwyIrNnUOxdrGnlDLIVA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

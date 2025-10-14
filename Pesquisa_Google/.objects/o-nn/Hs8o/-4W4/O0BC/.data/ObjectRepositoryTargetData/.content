@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="s5ICE_Akc0KbthndoLQd1Q" Reference="mD3YT0u9ZkWuwexx7Al00A/O0BCj5SdZUSRjQjCJR2HsQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="xxxclub.to" CVScreenId="4930cb69-545c-43ad-b60d-35b3553b98b3" CvElementArea="1192, 251, 306, 39" CvType="InputBox" DesignTimeRectangle="9, 225, 0, 0" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="947194cd-3e10-4d4c-8282-85b5981d17d6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='XXXClub : Adult , Porn , XXX , Videos , Download , Torrents' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cd45581f-a9ed-4d68-bfba-a367ddbe760d" CvTextArea="656, 250, 57, 20" CvTextArgument="celular" CvType="Text" DesignTimeRectangle="647, 239, 749, 47" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='twotabsearchtextbox' tag='INPUT' /&gt;" Guid="7b1feb0d-6384-4008-90d9-66754884db84" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3433d794f30fe99f0f3cab0da1c4b3a5.png" xmlns="">0RpFTpwKNyU2_rO0jUp2AUw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

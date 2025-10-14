@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PAmUAZ6z9EKRu5YnbCXpVw" Reference="mD3YT0u9ZkWuwexx7Al00A/yEhj9qMi7Eid0OXqZcdpuQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="amazon.com.br/ref=nav_logo" CVScreenId="411c2337-1517-44e2-8d5a-3cb13c5d8b57" CvElementArea="1393, 170, 61, 54" CvType="Button" DesignTimeRectangle="1396, 173, 56, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='nav-search-submit-button' tag='INPUT' /&gt;" Guid="2b87e9c3-0d9e-4ae1-a44b-8fd8f2b5fcec" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.com.br | Tudo pra você, de A a Z.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-7" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="4d82d3bfb53b64c3fde4a46dff5c38f4.png" xmlns="">0VvmpSNrLbkGMFd3Wjh2U4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
