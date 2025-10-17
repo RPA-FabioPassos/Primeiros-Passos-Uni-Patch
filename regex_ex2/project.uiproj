@@ -1,0 +1,6 @@
+{
+  "Name": "regex_ex2",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}
