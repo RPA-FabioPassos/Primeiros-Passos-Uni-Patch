@@ -1,0 +1,6 @@
+{
+  "Name": "Extracao_substring",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}
