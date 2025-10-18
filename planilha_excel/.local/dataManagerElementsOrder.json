@@ -1,0 +1,29 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "datatable&Sequence_2",
+        "variable1&Sequence_1",
+        "Contagem_linha&Sequence_14",
+        "formula_passada&Sequence_14",
+        "valor_linha2&Sequence_13",
+        "variable1&Sequence_13",
+        "valor_linha&Sequence_13",
+        "database_total&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
