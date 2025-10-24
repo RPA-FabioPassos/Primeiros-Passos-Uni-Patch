@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Deposit(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "8ck53nNnWUOOPnNWRQvmeg",
+  "Reference": "3Gx6YqZ_xE6gfeqissZ9_w/8ck53nNnWUOOPnNWRQvmeg",
+  "ParentRef": "3Gx6YqZ_xE6gfeqissZ9_w/8cbr1XQKtUKy_2MS4frNuw",
+  "Created": "2025-10-24T13:09:01.5721377Z",
+  "Updated": "2025-10-24T13:09:01.5721377Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

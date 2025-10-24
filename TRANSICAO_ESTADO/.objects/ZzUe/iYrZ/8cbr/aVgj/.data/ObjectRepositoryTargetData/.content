@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="r0t9G_ZWeUCp7X4Y-e11Ug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a2685056-68c7-42a8-b97f-a8ccb92f35d4" CvTextArea="63, 127, 53, 17" CvTextArgument="Deposit" CvType="Text" DesignTimeRectangle="65, 125, 51, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Deposit' role='radio button' /&gt;&lt;ctrl name='Deposit' role='text' /&gt;" Guid="b8ee1ad5-b08e-4365-9372-a6823bc91bcf" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a2f985ed495bf87c4ae41909b47f1826.png" xmlns="">04Y79vO-23kCGELqm5MriHA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

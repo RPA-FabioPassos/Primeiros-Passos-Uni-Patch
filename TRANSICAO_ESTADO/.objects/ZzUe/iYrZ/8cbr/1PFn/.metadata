@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Deposit transaction",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "1PFnE_IHxkquzCg72wZDyg",
+  "Reference": "3Gx6YqZ_xE6gfeqissZ9_w/1PFnE_IHxkquzCg72wZDyg",
+  "ParentRef": "3Gx6YqZ_xE6gfeqissZ9_w/8cbr1XQKtUKy_2MS4frNuw",
+  "Created": "2025-10-24T13:05:02.1996641Z",
+  "Updated": "2025-10-24T13:05:02.1996641Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

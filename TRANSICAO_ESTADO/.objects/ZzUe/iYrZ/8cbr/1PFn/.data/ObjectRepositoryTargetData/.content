@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KdELZJhhH0-ipbZmJsqOPw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="075d2c5b-e47e-4055-9b31-cca0b50235a7" CvTextArea="420, 120, 165, 20" CvTextArgument="Deposit transaction" CvType="Text" DesignTimeRectangle="422, 119, 163, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Deposit transaction' role='text' /&gt;&lt;ctrl name='Deposit transaction' role='text' /&gt;" Guid="d6467e10-7b07-4f7d-b0c7-6694f7f2b229" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9d9c46ef7417559227763c68476a776f.png" xmlns="">0wWoO46EWb0CivlFxmY__nQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
