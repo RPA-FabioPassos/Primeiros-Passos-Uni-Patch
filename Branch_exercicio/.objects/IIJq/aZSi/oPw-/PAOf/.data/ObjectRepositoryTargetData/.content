@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dN-0hxa3vEKg0N34wL4UQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com" CVScreenId="37e7b19a-53cd-4900-92ea-290f733f08dd" CvTextArea="632, 945, 95, 16" CvTextArgument="Add Vendor" CvType="Text" DesignTimeRectangle="611, 939, 310, 33" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="b401097e-2393-4ac6-a487-2acc12af8057" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="30ca38a77be6856662be5e3bbd200e48.png" xmlns="">0RC2mjsywhkWpOiGfSYpYpQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

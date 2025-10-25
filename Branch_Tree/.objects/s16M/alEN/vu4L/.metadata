@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Curso de Treinamento Profissional para",
+  "Type": "Screen",
+  "Id": "vu4LuH6vuEmk_YXTaFEA2Q",
+  "Reference": "CaXHxOHHwUCqIQU21Tg9zw/vu4LuH6vuEmk_YXTaFEA2Q",
+  "ParentRef": "CaXHxOHHwUCqIQU21Tg9zw/alENEltwtE-GWKT2Hoh1gg",
+  "Created": "2025-10-24T19:54:16.7538645Z",
+  "Updated": "2025-10-24T19:54:16.7538645Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
