@@ -1,0 +1,195 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "682d0e7f-f5fe-4439-bc48-ebcaf7b8808a",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "ExtractedFolderPath": {
+            "type": "object",
+            "properties": {
+              "FullName": {
+                "$ref": "#/$defs/string"
+              },
+              "Extension": {
+                "$ref": "#/$defs/string"
+              },
+              "CreationTime": {
+                "$ref": "#/$defs/dateTime"
+              },
+              "CreationTimeUtc": {
+                "$ref": "#/$defs/dateTime"
+              },
+              "LastAccessTime": {
+                "$ref": "#/$defs/dateTime"
+              },
+              "LastAccessTimeUtc": {
+                "$ref": "#/$defs/dateTime"
+              },
+              "LastWriteTime": {
+                "$ref": "#/$defs/dateTime"
+              },
+              "LastWriteTimeUtc": {
+                "$ref": "#/$defs/dateTime"
+              },
+              "LinkTarget": {
+                "$ref": "#/$defs/string"
+              },
+              "UnixFileMode": {
+                "enum": [
+                  "None",
+                  "OtherExecute",
+                  "OtherWrite",
+                  "OtherRead",
+                  "GroupExecute",
+                  "GroupWrite",
+                  "GroupRead",
+                  "UserExecute",
+                  "UserWrite",
+                  "UserRead",
+                  "StickyBit",
+                  "SetGroup",
+                  "SetUser"
+                ]
+              },
+              "Attributes": {
+                "enum": [
+                  "None",
+                  "ReadOnly",
+                  "Hidden",
+                  "System",
+                  "Directory",
+                  "Archive",
+                  "Device",
+                  "Normal",
+                  "Temporary",
+                  "SparseFile",
+                  "ReparsePoint",
+                  "Compressed",
+                  "Offline",
+                  "NotContentIndexed",
+                  "Encrypted",
+                  "IntegrityStream",
+                  "NoScrubData"
+                ]
+              },
+              "Name": {
+                "$ref": "#/$defs/string"
+              },
+              "Parent": {
+                "$ref": "#/$defs/directoryInfo"
+              },
+              "Root": {
+                "$ref": "#/$defs/directoryInfo"
+              },
+              "Exists": {
+                "$ref": "#/$defs/boolean"
+              }
+            },
+            "$defs": {
+              "string": {
+                "type": "string",
+                "readOnly": true
+              },
+              "dateTime": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "directoryInfo": {
+                "type": "object",
+                "properties": {
+                  "FullName": {
+                    "$ref": "#/$defs/string"
+                  },
+                  "Extension": {
+                    "$ref": "#/$defs/string"
+                  },
+                  "CreationTime": {
+                    "$ref": "#/$defs/dateTime"
+                  },
+                  "CreationTimeUtc": {
+                    "$ref": "#/$defs/dateTime"
+                  },
+                  "LastAccessTime": {
+                    "$ref": "#/$defs/dateTime"
+                  },
+                  "LastAccessTimeUtc": {
+                    "$ref": "#/$defs/dateTime"
+                  },
+                  "LastWriteTime": {
+                    "$ref": "#/$defs/dateTime"
+                  },
+                  "LastWriteTimeUtc": {
+                    "$ref": "#/$defs/dateTime"
+                  },
+                  "LinkTarget": {
+                    "$ref": "#/$defs/string"
+                  },
+                  "UnixFileMode": {
+                    "enum": [
+                      "None",
+                      "OtherExecute",
+                      "OtherWrite",
+                      "OtherRead",
+                      "GroupExecute",
+                      "GroupWrite",
+                      "GroupRead",
+                      "UserExecute",
+                      "UserWrite",
+                      "UserRead",
+                      "StickyBit",
+                      "SetGroup",
+                      "SetUser"
+                    ]
+                  },
+                  "Attributes": {
+                    "enum": [
+                      "None",
+                      "ReadOnly",
+                      "Hidden",
+                      "System",
+                      "Directory",
+                      "Archive",
+                      "Device",
+                      "Normal",
+                      "Temporary",
+                      "SparseFile",
+                      "ReparsePoint",
+                      "Compressed",
+                      "Offline",
+                      "NotContentIndexed",
+                      "Encrypted",
+                      "IntegrityStream",
+                      "NoScrubData"
+                    ]
+                  },
+                  "Name": {
+                    "$ref": "#/$defs/string"
+                  },
+                  "Parent": {
+                    "$ref": "#/$defs/directoryInfo"
+                  },
+                  "Root": {
+                    "$ref": "#/$defs/directoryInfo"
+                  },
+                  "Exists": {
+                    "$ref": "#/$defs/boolean"
+                  }
+                },
+                "readOnly": true
+              },
+              "boolean": {
+                "type": "boolean",
+                "readOnly": true
+              }
+            }
+          }
+        },
+        "required": []
+      }
+    }
+  ]
+}
