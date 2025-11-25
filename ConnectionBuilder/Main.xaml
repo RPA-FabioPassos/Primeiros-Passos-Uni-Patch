@@ -1,0 +1,123 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C3CAFF39D43_Pet.Bundle;assembly=C3CAFF39D43_Pet.RsEaDvaPGD1gJuCC4SCEAe2" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.C3CAFF39D43_Pet.Bundle</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.C3CAFF39D43_StoreOrder.Bundle</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>C3CAFF39D43_Pet.RsEaDvaPGD1gJuCC4SCEAe2</AssemblyReference>
+      <AssemblyReference>C3CAFF39D43_StoreOrd.hW3UP4KpMqQ1ZmO9m2W3qWE</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="758.8000000000001,425.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="uiascb:Pet" Name="pet" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACnWUTXPaMBCG/4pHZ0M+yKXM5AAGUqdJ4wGSHjqZjiJvsIIsudKKlDD8965sQ0hKxxfPrqR999lX2rCJBJW7xGjkUoNl/Q2bAbei4E8KmiTr/3yM2Vfu7rV8lpDP1xVQEK2HmKW68rhft2HfeQmszyrANGcxG0lXKb7+HAUnrKxQGk3RdBSZ54hyEZrIAnqraU2oQkmpERakK2ZT+O2lhXxXuS56YwRvj8k4FrQsdbeAhckzbqkohpbC+i21cOfxqNhrib8ywH/ktrEPYt+V3ctQsZsGgbYWMQO7kgK6A4FyJVGC685+jDU2v0kvGUwmvS+ji16o1h16nSvo0m8cfc5N3ZiPVjy7Gp0trn2SXMyS8QDO4+gBrKNKl2fd0/DRTq8IGFxq8Gi5iqPMPykpvsF6bpagL7VXqoUHDln/mStH8KbgKqMd/A9mg6rGSXTq7H7i7passjvgILV93Mbs0COJKSs6kIz07haHXAvYD4fmsGFtU1S2bouqkh81CDSW+qCw8A5N2am4E4Xmunhx2HGvfEHGINtQzoKpQPNK9sLulv+6HdQVkLGloMRdBc2kKDoFtBJWwEh0aFzJN8h3O1sDXJEnpyCMDaZNuCiAGJmlrx64IpxB+93TCwlt1pOjyN573zReSozypQ5+C/GoE52QZEZunFF9vZgYW3L8vJZtTrfH7LjbTmpqJO08a/KNvqE1rw5silAGfRTPrCy5XRPJ9iZnXCz5Ag6pnxP4Q+xtxVnDOKLKNWQqTwj1IEuj3scNh4c1ZzVgjl2oQ2S70LHB0JuDWDW3OQxjPKdQfcv7LFA42dTvSQB1w/XCU0+UgfB40GM1tMCXBDgpKBdm1Tp/Dn9wqIxY1jS2fwEmj6GDAgUAAA==" ConnectionId="6c3fdc3e-2ca9-4fbd-b5e8-e33caff39d43" DisplayName="Get Record" sap:VirtualizedContainerService.HintSize="449.6,236.8" sap2010:WorkflowViewState.IdRef="ConnectorActivity_1" UiPathActivityTypeId="e50c1856-c0ca-3e5f-bbb2-c609b6e2ec16">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="petId" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Int32">10</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="Jit_Pet" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="uiascb:Pet">[pet]</OutArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+    </isactr:ConnectorActivity>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="449.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[pet. name+&quot;,&quot; + pet.status +&quot;,&quot;  + pet.id.ToString]" />
+  </Sequence>
+</Activity>
